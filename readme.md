@@ -1,0 +1,5 @@
+This repository contains document artifacts for an inforamtion exchange for borehole lithology intercepts. The artifacts include an Excel Workbook that defines and documents the content model, and an XML schema that implements the model.
+
+The Excel workbook specifies content elements for an interchange format for lithology log intercepts associated with a borehole. Fields in the BoreholeLithIntercept Content model will become XML elements in interchange documents for WFS simple features served by AASG-geothermal-data web services.  Each intercept feature has a depth coordinate measured from the ground surface along the well bore (convention for interoperability) and a geologic unit specified that will be identical with the content associated with contacts on a geologic map.  Other sheets in the workbook provide additional explanatory material and provide information on the origin of the dataset, its review and lineage.
+
+Services are currently deployed using the tagged 1.1 version.
